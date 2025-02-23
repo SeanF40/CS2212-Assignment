@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Basic Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <h2>Welcome to Our Store</h2>
+        <p>Browse our products and shop easily!</p>
+        <div class="product-list">
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>$10.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>$15.00</p>
+                <button onclick="addToCart('Product 2', 15)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="product-page">
+        <h2>Product Details</h2>
+        <div class="product-detail">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <p>Price: $XX.XX</p>
+            <button onclick="addToCart('Product Name', XX.XX)">Add to Cart</button>
+        </div>
+    </section>
+</body>
+</html>
