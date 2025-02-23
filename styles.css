@@ -1,10 +1,9 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: #fff;
 }
 
 
@@ -13,6 +12,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -31,10 +31,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ff9900;
 }
 
 
@@ -42,16 +43,18 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #333;
 }
 
 h1, h2, h3 {
     text-align: center;
+    font-weight: 600;
 }
 
-/* Product Page Styles */
+
 .product-detail {
     text-align: center;
     padding: 20px;
@@ -65,10 +68,13 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.2s, background-color 0.3s;
+    font-weight: 600;
 }
 
 button:hover {
     background-color: #cc7a00;
+    transform: scale(1.1);
 }
 
 
@@ -78,6 +84,7 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
+    color: #333;
 }
 
 input[type="text"] {
@@ -86,9 +93,10 @@ input[type="text"] {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: 'Times New Roman', serif;
 }
 
-/* Footer Styles */
+
 footer {
     text-align: center;
     background: #232f3e;
@@ -97,4 +105,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
 }
