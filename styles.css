@@ -2,12 +2,13 @@ body {
     font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #0b3d0b, #145214);
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
     color: #fff;
 }
 
-header, footer {
-    background-color: #0d2818; 
+
+header {
+    background-color: #232f3e;
     color: white;
     padding: 20px;
     text-align: center;
@@ -34,17 +35,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #a3d977; 
+    color: #ff9900;
 }
+
 
 main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: rgba(200, 255, 200, 0.9); 
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    color: #0b3d0b; /* Dark green text */
+    color: #333;
 }
 
 h1, h2, h3 {
@@ -52,15 +54,16 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+
 .product-detail {
     text-align: center;
     padding: 20px;
 }
 
 button {
-    background-color: #a3d977; 
+    background-color: #ff9900;
     border: none;
-    color: #0b3d0b; 
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -70,31 +73,33 @@ button {
 }
 
 button:hover {
-    background-color: #6a8f4c; 
+    background-color: #cc7a00;
     transform: scale(1.1);
 }
 
+
 #cart-items, #order-summary {
     padding: 10px;
-    background: rgba(255, 255, 255, 0.9); 
+    background: #fff;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
-    color: #0b3d0b; 
+    color: #333;
 }
 
 input[type="text"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #6a8f4c; 
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-family: 'Times New Roman', serif;
 }
 
+
 footer {
     text-align: center;
-    background: #0d2818;
+    background: #232f3e;
     color: white;
     padding: 10px;
     position: fixed;
