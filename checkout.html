@@ -3,41 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Checkout</h1>
+        <h1>Contact Us</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="product.html">About us</a></li>
+                <li><a href="cart.html">Pre Order</a></li>
+                <li><a href="checkout.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <h2>Order Summary</h2>
+        <h2>items pre ordered</h2>
         <div id="order-summary">
-            <p>No items in cart.</p>
+            <p>No items pre ordered.</p>
         </div>
         
-        <h2>Payment Information</h2>
+        <h2>Contact Us</h2>
         <form id="checkout-form">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" required>
+            <label for="query">Query:</label>
+            <input type="text" id="query" name="query" required>
+        
             
-            <label for="card">Credit Card Number:</label>
-            <input type="text" id="card" name="card" required>
-            
-            <button type="submit">Complete Purchase</button>
+            <button type="submit">Complete Query</button>
         </form>
     </main>
 </body>
