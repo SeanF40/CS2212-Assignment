@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cart.forEach((item, index) => {
             const itemElement = document.createElement("div");
             itemElement.classList.add("cart-item");
-            itemElement.innerHTML = `€{item.name} - €€{item.price.toFixed(2)} <button onclick="removeFromCart(€{index})">Remove</button>`;
+            itemElement.innerHTML = €{item.name} - €€{item.price.toFixed(2)} <button onclick="removeFromCart(€{index})">Remove</button>;
             cartContainer.appendChild(itemElement);
         });
     }
